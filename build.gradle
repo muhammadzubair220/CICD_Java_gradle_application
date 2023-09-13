@@ -28,7 +28,14 @@ test {
 
 sonarqube {
     properties {
+        property "sonar.projectKey", "your_project_key"
+        property "sonar.host.url", "http://your-sonarqube-server-url"
+        // Other SonarQube properties
+    }
+
+sonarqube {
+    properties {
         property 'sonar.host.url', 'http://51.89.37.225:9000'
-        property 'sonar.login', '******'
+        property 'sonar.login', 'squ_28a056ce104bd37088f29fe674f1817cd079d5f9'
     }
 }
